@@ -1,7 +1,9 @@
 import { Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBell,faMagnifyingGlass,faTree,fatree } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass,faTree,fatree } from '@fortawesome/free-solid-svg-icons';
 import "../Header/header.css";
+import face from '../../assets/images/face.png';
+import plus from '../../assets/images/plus.png';
 const Header = () => {
   return (
   <Nav class="navbar navbar-expand-md navbar-dark">
@@ -26,6 +28,10 @@ const Header = () => {
   </form>
   
   </div>
+   <div className="float-right">
+         <img src={face} className="mt-1"/>
+         <img src={plus}/>
+      </div>
 </Nav>
 
   )
