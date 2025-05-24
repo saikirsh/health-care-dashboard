@@ -1,0 +1,27 @@
+.navbar-toggler {
+    background-color: red; /* Change button background */
+    border-color: white; /* Change border color */
+    /*  position: absolute;
+    left: 10px; */
+   /* s */
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%); /* Change icon color */
+}
+.input-group-text {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-left: 0;
+}
+
+.input-group-prepend .input-group-text {
+  border-right: 0;
+}
+.custom-blue{
+  color: rgb(41, 33, 98);
+}
