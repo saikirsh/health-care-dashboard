@@ -1,4 +1,4 @@
-
+import "../../index.css";
 import Sidebar from "../Sidebar/sidebar";
 import Main from "../DashboardMainContent/index";
 
