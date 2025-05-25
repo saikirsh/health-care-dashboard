@@ -6,7 +6,7 @@ const Anatomy = () => {
     <>
       <h2 className="text-blue">Dash Board</h2>
       <div className="row">
-        <div class="card col-md-9 border-0">
+        <div class="card col-md-10 border-0">
           <div class="card-body">
             <div className="anatomy-container">
               <img
@@ -18,7 +18,7 @@ const Anatomy = () => {
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-1">
        <Healthstatus/>
         </div>
       </div>

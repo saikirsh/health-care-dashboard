@@ -1,0 +1,14 @@
+.custom-card{
+    border-radius: 2rem !important;
+    text-align: left;
+    font-size: 14px !important;
+    padding: none !important;
+    background-color: rgba(55,52,168,255) !important;
+}
+.custom-card2{
+    border-radius: 2rem !important;
+    text-align: left;
+    font-size: 14px !important;
+    padding: none !important;
+    background-color: rgba(221,226,249,255) !important;
+}
