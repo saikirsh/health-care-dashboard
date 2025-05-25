@@ -1,4 +1,4 @@
-.text-blue{
+.text-blue {
   color: rgb(41, 33, 98);
 }
 
@@ -7,7 +7,6 @@
   width: 100%;
   max-width: 600px;
   margin: auto;
- 
 }
 
 .anatomy-image {
@@ -40,18 +39,16 @@
   color: rgb(104, 104, 242);
 }
 @media screen and (max-width: 767px) {
- .anatomy-image { 
-  margin-left: 15%;
-}
-.heart-label {
-  top: 25%;
-  left: 60%;
-  
-}
+  .anatomy-image {
+    margin-left: 15%;
+  }
+  .heart-label {
+    top: 25%;
+    left: 60%;
+  }
 
-.leg-label {
-  bottom: 20%;
-  left: 20%;
-
-}
+  .leg-label {
+    bottom: 20%;
+    left: 20%;
+  }
 }

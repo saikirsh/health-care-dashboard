@@ -1,13 +1,7 @@
 import AppointmentCard from "../../SimpleAppointmentCard/appointmentcard";
 
-
 const Schedule = () => {
-  return (
- <AppointmentCard/>
-     
-   
-  );
+  return <AppointmentCard />;
 };
-
 
 export default Schedule;

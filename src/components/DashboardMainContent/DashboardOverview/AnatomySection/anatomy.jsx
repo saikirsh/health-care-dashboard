@@ -14,12 +14,17 @@ const Anatomy = () => {
                 alt="Anatomical Illustration"
                 className="anatomy-image"
               />
-            {  <><div className="label heart-label">❤️ Healthy Heart</div><div className="label leg-label">🦵 Healthy Leg</div></> }
+              {
+                <>
+                  <div className="label heart-label">❤️ Healthy Heart</div>
+                  <div className="label leg-label">🦵 Healthy Leg</div>
+                </>
+              }
             </div>
           </div>
         </div>
         <div class="col-md-1">
-       <Healthstatus/>
+          <Healthstatus />
         </div>
       </div>
     </>
