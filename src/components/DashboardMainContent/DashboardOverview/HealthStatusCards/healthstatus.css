@@ -2,3 +2,15 @@
     width: 50px !important;
     height: auto;
 }
+ .custom-arrow{
+    margin-left: 3rem;
+    margin-top: 6px;
+  }
+@media screen and (max-width: 576px) {
+  .custom-arrow{
+    margin-left: 0rem !important;
+  }
+  .position-relative{
+    left: 0rem !important;
+  }
+}

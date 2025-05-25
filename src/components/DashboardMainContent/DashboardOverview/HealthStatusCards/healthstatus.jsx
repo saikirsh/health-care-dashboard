@@ -2,8 +2,8 @@ import "../HealthStatusCards/healthstatus.css";
 import lungs from "../../../../assets/images/lungs.jpg";
 import teeth from "../../../../assets/images/teeth.jpg";
 import bone from "../../../../assets/images/bone.jpg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 function Healthstatus() {
   return (
     <div class="">
@@ -64,14 +64,14 @@ function Healthstatus() {
           </div>
         </div>
       </div>
-      <div
-        class="position-relative"
-        style={{height: '3rem', border: '0px solid #ccc',left:'6rem'}}
-      >
-        <button class="btn btn-outline-none position-absolute btn-xl text-primary">
-          Details<span class='ml-2'><FontAwesomeIcon icon={faArrowRight}/></span>
-        </button>
-      </div>
+
+      <button class="btn btn-outline-none text-primary d-flex">
+        <span>Details</span>
+        <span className="ml-1">
+          {" "}
+          <FontAwesomeIcon icon={faArrowRight} className="display-inline" />
+        </span>
+      </button>
     </div>
   );
 }
