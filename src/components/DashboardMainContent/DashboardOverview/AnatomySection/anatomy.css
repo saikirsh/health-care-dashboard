@@ -1,0 +1,57 @@
+.text-blue{
+  color: rgb(41, 33, 98);
+}
+
+.anatomy-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+ 
+}
+
+.anatomy-image {
+  width: 200px;
+  height: auto;
+}
+
+.label {
+  position: absolute;
+
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.heart-label {
+  top: 25%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(41, 33, 98);
+  color: white;
+}
+
+.leg-label {
+  bottom: 20%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  background-color: aqua;
+  color: rgb(104, 104, 242);
+}
+@media screen and (max-width: 767px) {
+ .anatomy-image { 
+  margin-left: 15%;
+}
+.heart-label {
+  top: 25%;
+  left: 60%;
+  
+}
+
+.leg-label {
+  bottom: 20%;
+  left: 20%;
+
+}
+}
