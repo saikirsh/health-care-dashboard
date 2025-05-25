@@ -1,11 +1,11 @@
 const AppointmentCard = () => {
   return (
     <>
-      <div className="mt-3 ml-5 col-md-12">
+      <div className="mt-3 ml-lg-5 ml-sm-0 ml-col-0 col-md-12">
         <h5>The upcoming schedule</h5>
         <h6 className="text-grey">On Thursday</h6>
       </div>
-      <div class="col-md-12 row ml-4">
+      <div class="col-md-12 row ml-lg-4 ml-sm-0">
         <div className="card col-md-6 col-12 col-sm-6 col-md-4 ml-lg-3 mt-2 custom-card2 shadow border-0">
           <div className="card-body">
             <p className="card-title">Health Checkup Complete</p>
@@ -23,8 +23,8 @@ const AppointmentCard = () => {
           </div>
         </div>
       </div>
-      <h6 className="text-grey ml-5 mt-2">On saturday</h6>
-       <div class="col-md-12 row ml-4">
+      <h6 className="text-grey ml-lg-5 ml-sm-0 mt-2">On saturday</h6>
+       <div class="col-md-12 row ml-lg-4 ml-sm-0">
         
         <div className="card col-md-6 col-12 col-sm-6  mt-2 ml-lg-3 ml-sm-0 custom-card2 shadow border-0">
           <div className="card-body">
