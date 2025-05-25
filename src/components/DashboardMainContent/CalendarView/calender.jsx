@@ -13,8 +13,8 @@ const Calendar = () => {
           <img src={calender} className="img-responsive w-100" />
         </div>
       </div>
-      <div class="col-md-10 ml-auto d-flex">
-        <div className="card text-white col-md-4 ml-5 mt-2 custom-card">
+      <div class="col-md-10 ml-auto row">
+        <div className="card text-white col-12 col-sm-6 col-md-4 ml-lg-5 mt-2 custom-card shadow border-0">
           <div className="card-body">
             <p className="card-title">Dentist</p>
             <p className="card-text">09:00-11:00</p>
@@ -24,7 +24,7 @@ const Calendar = () => {
             </span>
           </div>
         </div>
-         <div className="card col-md-6 mt-2 ml-5 custom-card2">
+         <div className="card col-md-6 col-12 col-sm-6 col-md-4 ml-lg-4 mt-2 custom-card2 shadow border-0">
           <div className="card-body">
             <p className="card-title"> Physiotherapy Appointment</p>
             <p className="card-text">01:00-12:00</p>

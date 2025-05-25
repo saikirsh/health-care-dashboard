@@ -8,7 +8,7 @@ function Healthstatus() {
   return (
     <div class="">
       <div
-        className="card text-center mb-4"
+        className="card text-center mb-4 shadow border-0"
         style={{ width: "12rem", margin: "auto" }}
       >
         <div className="card-body">
@@ -27,7 +27,7 @@ function Healthstatus() {
         </div>
       </div>
       <div
-        className="card text-center mb-4"
+        className="card text-center mb-4 shadow border-0"
         style={{ width: "12rem", margin: "auto" }}
       >
         <div className="card-body">
@@ -46,7 +46,7 @@ function Healthstatus() {
         </div>
       </div>
       <div
-        className="card text-center"
+        className="card text-center shadow border-0"
         style={{ width: "12rem", margin: "auto" }}
       >
         <div className="card-body">
