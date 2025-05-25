@@ -1,16 +1,17 @@
-import { Bar } from 'react-chartjs-2';
-import { Chart as ChartJS } from 'chart.js/auto';
 
-const data = {
-  labels: ['Mon', 'Tue', 'Wen', 'Thu','Fri', 'Sat', 'Sun', 'Apr'],
-  datasets: [
-    {
-      label: 'Activity',
-      data: [30, 50, 70, 90,30, 50, 70],
-      backgroundColor: 'rgba(75, 192, 192, 0.6)',
-    },
-  ],
+import { BarChart } from '@mui/x-charts/BarChart';
+
+const ActivityChart = () => {
+ 
+  return (
+    <div style={{ width: '400px', height: '300px' }}>
+      <BarChart
+  xAxis={[{ data: ['Mon', 'Tue', 'Wen','Thu','Fri','Sat','Sun'] }]}
+  series={[{ data: [1,0,0,8,9], colors:'aqua'}, { data: [ 0,5,0,9,0,9],color:'purple' }, { data: [0,0,9,0,9,0],color:'aqua' }, { data: [ 0,5,0,8,9,6] ,color:'aqua'}, { data: [0,0,6,4,7,8],data: [1,0,0,3,0],color:'red' }, { data: [ 0,5,0],color:'green' }, { data: [0,0, 6],color: '#fdb462'}]}
+  height={300}
+/>
+    </div>
+  );
 };
 
-const ActivityChart = () => <Bar data={data} />;
 export default ActivityChart;
